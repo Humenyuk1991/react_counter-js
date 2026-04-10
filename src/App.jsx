@@ -6,20 +6,20 @@ export const App = () => {
 
   const addOne = () => {
     // write code here
-    setCount(prev => prev+1);
+    setCount(prev => prev + 1);
   };
 
   const add100 = () => {
     // write code here
-    setCount(prev => prev+100);
+    setCount(prev => prev + 100);
   };
 
   // DON'T change the code below
   const increase = () => {
     if (count % 5 === 0) {
       add100();
-
     }
+
     addOne();
   };
 
